@@ -1,0 +1,18 @@
+hdl_global_localization_node:
+  ros__parameters:
+    # engine_name
+    engine_name_used: "BBS"
+
+    # BBS parameter config path
+    config_path : ""
+
+    # FPFH_RANSAC Parameters
+    fpfh/normal_estimation_radius : 2.0
+    fpfh/search_radius : 8.0
+    voxel_based ransac/voxel_based : true
+    ransac/max_correspondence_distance : 1.0
+    ransac/similarity_threshold : 0.5
+    ransac/correspondence_randomness : 2
+    ransac/max_iterations : 100000
+    ransac/matching_budget : 10000
+    ransac/min_inlier_fraction : 0.25
